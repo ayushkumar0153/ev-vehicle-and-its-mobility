@@ -1,0 +1,123 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EV Charging Stations in India</title>
+    <style>
+        /* Apply a background gradient */
+        body {
+            background: linear-gradient(to right, #00c6ff, #0072ff);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        /* Center the heading */
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+            margin-top: 50px;
+        }
+
+        /* Add fade-in animation to the image */
+        .image-container img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            opacity: 0;
+            animation: fadeIn 3s forwards;
+        }
+
+        /* Define fade-in animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Styling for button container */
+        .button-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        /* Style for the redirect button */
+        .redirect-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #00bfff;
+            color: white;
+            border: 2px solid #007bb5;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transform: scale(1);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        /* Hover effect for the button */
+        .redirect-button:hover {
+            background-color: #007bb5;
+            transform: scale(1.1);
+        }
+
+        /* Hover effect for the button when focused */
+        .redirect-button:focus {
+            outline: none;
+        }
+
+        /* Animation for the button when the page loads */
+        .redirect-button {
+            animation: buttonAppear 1s ease-in-out;
+        }
+
+        /* Keyframe for button appearance animation */
+        @keyframes buttonAppear {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Add a glow effect to the button */
+        .redirect-button:active {
+            box-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1><u><b>Map of India with EV Charging Stations</b></u></h1>
+
+    <!-- Display Image with fade-in animation -->
+    <div class="image-container">
+        <img src="file:///C:/Users/ayush/Downloads/noev.png" alt="EV Charging Image">
+        <img src="C:\Users\ayush\Downloads\comment.jpg"height="700" alt="EV Charging Image">
+        <h2>The given below link will direct to the google map.So,that you can see the nearest charging station</h2>
+    </div>
+
+    <!-- Find Nearest Charging Station Link -->
+    <div class="button-container">
+        <a href="https://www.google.com/maps/search/EV+charging+station+near+me" target="_blank" class="redirect-button">Find Nearest Charging Station</a>
+    </div>
+
+</body>
+</html> 
+
+
+
